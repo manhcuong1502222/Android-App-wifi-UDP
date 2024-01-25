@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="350dp"
+    android:layout_height="wrap_content"
+    android:background="#FAA0A0"
+    android:paddingLeft="21dp"
+    android:paddingBottom="11dp"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:textSize="32sp"
+        android:textStyle="bold"
+        android:textColor="#fff"
+        android:id="@+id/txtTitleDevice"
+        android:layout_margin="21dp"
+        android:text="Add Device"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter Device Name"
+        android:background="#fff"
+        android:padding="11dp"
+        android:layout_marginRight="20dp"
+        android:id="@+id/edtNameDevice"
+        android:inputType="text"/>
+
+
+    <EditText
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter Device Type"
+        android:background="#fff"
+        android:padding="11dp"
+        android:layout_marginRight="20dp"
+        android:id="@+id/edtImageDevice"
+        android:inputType="text"/>
+
+    <Button
+        android:id="@+id/buttonActionDevice"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Add"
+        android:textAllCaps="false"
+        android:backgroundTint="#fff"
+        android:layout_marginTop="11dp"
+        android:layout_marginRight="20dp"
+        android:textColor="#FAA0A0"
+        android:layout_gravity="end"/>
+
+</LinearLayout>

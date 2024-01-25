@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "602989615673",
+    "project_id": "login-register-fb-final",
+    "storage_bucket": "login-register-fb-final.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:602989615673:android:a938abd3b78c89adfd0be8",
+        "android_client_info": {
+          "package_name": "com.example.finalproject"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBHzwqeaKfyT_2rGkq4c8kgB3SMd8QtSdU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
